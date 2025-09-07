@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Sports Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🏆 Sports Blog</h1>
+    <nav>
+      <a class="active" data-category="all">Home</a>
+      <a data-category="Football">Football</a>
+      <a data-category="Cricket">Cricket</a>
+      <a data-category="Tennis">Tennis</a>
+      <a data-category="Basketball">Basketball</a>
+      <a data-category="Athletics">Athletics</a>
+    </nav>
+  </header>
+
+  <!-- BLOG CONTAINER -->
+  <div class="container">
+
+    <!-- Football -->
+    <div class="blog-post" data-category="Football" data-title="Thrilling Football Final" data-full="The championship final ended in spectacular fashion as the underdogs clinched victory in a penalty shootout. Fans were thrilled with the incredible match.">
+      <img src="https://images.unsplash.com/photo-1594737625785-cdfb0fc37ef2?auto=format&fit=crop&w=800&q=80" alt="Football Match">
+      <div class="blog-content">
+        <h2>Thrilling Football Final</h2>
+        <small>Sep 6, 2025 | Football</small>
+        <p>The championship final ended in spectacular fashion as the underdogs clinched victory.</p>
+        <a class="read-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Cricket -->
+    <div class="blog-post" data-category="Cricket" data-title="Cricket World Cup Victory" data-full="India secured a historic World Cup win with a record-breaking performance. The victory sparked celebrations across the nation.">
+      <img src="https://images.unsplash.com/photo-1605633166384-6cf34a52d74f?auto=format&fit=crop&w=800&q=80" alt="Cricket Stadium">
+      <div class="blog-content">
+        <h2>Cricket World Cup Victory</h2>
+        <small>Sep 5, 2025 | Cricket</small>
+        <p>India secured a historic World Cup win with a record-breaking performance.</p>
+        <a class="read-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Tennis -->
+    <div class="blog-post" data-category="Tennis" data-title="Tennis Legend Retires" data-full="After two decades of dominance, the tennis legend announced retirement. Fans celebrated the illustrious career filled with records and titles.">
+      <img src="https://images.unsplash.com/photo-1504457046780-278f9a31d9c4?auto=format&fit=crop&w=800&q=80" alt="Tennis Court">
+      <div class="blog-content">
+        <h2>Tennis Legend Retires</h2>
+        <small>Sep 4, 2025 | Tennis</small>
+        <p>After two decades of dominance, the tennis legend announced retirement.</p>
+        <a class="read-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Basketball -->
+    <div class="blog-post" data-category="Basketball" data-title="Basketball Finals" data-full="The basketball finals delivered high-intensity action as two top teams battled for supremacy, ending in a buzzer-beater shot.">
+      <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=800&q=80" alt="Basketball">
+      <div class="blog-content">
+        <h2>Basketball Finals</h2>
+        <small>Sep 3, 2025 | Basketball</small>
+        <p>The basketball finals delivered high-intensity action as two top teams battled for supremacy.</p>
+        <a class="read-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Athletics -->
+    <div class="blog-post" data-category="Athletics" data-title="Olympic Records Shattered" data-full="The Olympic Games witnessed history as multiple records were shattered on the track. Athletes pushed the limits of human performance in a breathtaking display of speed.">
+      <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80" alt="Running Track">
+      <div class="blog-content">
+        <h2>Olympic Records Shattered</h2>
+        <small>Sep 2, 2025 | Athletics</small>
+        <p>The Olympic Games witnessed history as multiple records were shattered on the track.</p>
+        <a class="read-more">Read More →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MODAL -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalFullText"></p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Sports Blog | All Rights Reserved</p>
+  </footer>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button id="scrollTopBtn">↑</button>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
